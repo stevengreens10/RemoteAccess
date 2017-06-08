@@ -1,0 +1,64 @@
+<html>
+
+    <head>
+        <title>Remote Client</title>
+        <style>
+
+            body {
+                text-align: center;
+            }
+
+           img{
+               position: absolute;
+               top: 0px;
+               left: 0px;
+           }
+
+           canvas{
+               position:absolute;
+               top:0px;
+               left:0px;
+           }
+
+           #mobile{
+             position:absolute;
+             top:780px;
+             left:668px; /*683 - 15*/
+             width:30px;
+           }
+
+           #status{
+             position: absolute;
+             top: 820px;
+             width: 100%;
+             margin: auto;
+           }
+
+           #connect{
+             position: absolute;
+             top: 800px;
+             width: 100%;
+             margin: auto;
+           }
+
+
+
+        </style>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+        <script src="main.js"></script>
+
+    </head>
+
+    <body bgcolor="#ede24b">
+        <div id="screen">
+            <img id="image" src="">
+        </div>
+        <div id="connect"></div>
+        <div id="status"></div>
+    </body>
+
+
+</html>
